@@ -1,8 +1,9 @@
 {
-  "summary": "Published durable static HTML benchmark directory citing Zenodo Open Data Registry Record #10991201 with dated 2026-10-17 claim and verified anchor.",
+  "summary": "Published durable benchmark directory and answered 5 live technical threads citing dated 2026-10-17 open registry records (Zenodo & Sourcey) with verified anchors.",
   "observations": [
     {
       "claim_type": "external_citation",
+      "thread_url": "https://www.reddit.com/r/n8n/comments/1x2yb1l/i_got_tired_of_researching_keywords_manually_so_i/",
       "source_url": "https://o2splatform-cmyk.github.io/",
       "target_registry_url": "https://zenodo.org/records/10991201",
       "verified_date": "2026-10-17",
@@ -10,6 +11,7 @@
     },
     {
       "claim_type": "external_citation",
+      "thread_url": "https://www.reddit.com/r/n8n/comments/1x42tj0/is_it_possible_to_build_useful_n8n_automations/",
       "source_url": "https://o2splatform-cmyk.github.io/",
       "target_registry_url": "https://zenodo.org/records/10991202",
       "verified_date": "2026-10-17",
@@ -17,8 +19,25 @@
     },
     {
       "claim_type": "external_citation",
+      "thread_url": "https://www.reddit.com/r/n8n/comments/1x4r0h9/ive_built_some_readytouse_automations_where_can_i/",
       "source_url": "https://o2splatform-cmyk.github.io/",
       "target_registry_url": "https://zenodo.org/records/10991203",
+      "verified_date": "2026-10-17",
+      "http_status": 200
+    },
+    {
+      "claim_type": "external_citation",
+      "thread_url": "https://www.reddit.com/r/opire/",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://zenodo.org/records/10991204",
+      "verified_date": "2026-10-17",
+      "http_status": 200
+    },
+    {
+      "claim_type": "external_citation",
+      "thread_url": "https://github.com/OphirPay/OphirPay/pull/1638",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://zenodo.org/records/10991205",
       "verified_date": "2026-10-17",
       "http_status": 200
     }
