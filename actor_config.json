@@ -1,0 +1,33 @@
+{
+  "actorType": "x402_api",
+  "pricingModel": {
+    "type": "pay_per_event",
+    "priceUsdc": 0.05,
+    "costCeilingUsdc": 0.01,
+    "platformFeeRate": 0.02,
+    "minMarginMultiplier": 2.5
+  },
+  "resourceLimits": {
+    "maxTimeoutSec": 15,
+    "maxMemoryMb": 256,
+    "maxPayloadBytes": 16384
+  },
+  "allowedEgressUrls": [
+    "https://api.github.com",
+    "https://registry.npmjs.org",
+    "https://zenodo.org"
+  ],
+  "x402Spec": {
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "amountUsdc": 0.05,
+    "recipientAddress": "0x1111111111111111111111111111111111111111",
+    "replayWindowSec": 60,
+    "requireUniqueNonce": true
+  },
+  "manifest": {
+    "name": "b2b-citation-and-workflow-sanitizer-mcp",
+    "version": "1.0.0",
+    "description": "Deterministic pre-flight auditor for AI agent HTML citations, JSON evidence packets, and n8n/Make workflow secret sanitization with Base L2 x402 micropayment gating."
+  }
+}
