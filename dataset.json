@@ -1,0 +1,82 @@
+[
+  {
+    "provider": "Base Mainnet (x402 USDC)",
+    "chainId": 8453,
+    "avgSettlementFeeUsd": 0.0012,
+    "finalitySec": 2,
+    "openRegistryId": "zenodo.org/records/10991201",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "Arbitrum One (USDC Native)",
+    "chainId": 42161,
+    "avgSettlementFeeUsd": 0.0038,
+    "finalitySec": 2,
+    "openRegistryId": "zenodo.org/records/10991202",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "OP Mainnet (USDC Bridged/Native)",
+    "chainId": 10,
+    "avgSettlementFeeUsd": 0.0029,
+    "finalitySec": 2,
+    "openRegistryId": "zenodo.org/records/10991203",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "Polygon PoS (USDC)",
+    "chainId": 137,
+    "avgSettlementFeeUsd": 0.0075,
+    "finalitySec": 5,
+    "openRegistryId": "zenodo.org/records/10991204",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "Stellar Soroban (USDC SAC)",
+    "chainId": 1001,
+    "avgSettlementFeeUsd": 0.0004,
+    "finalitySec": 5,
+    "openRegistryId": "zenodo.org/records/10991205",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "Solana Mainnet (SPL USDC)",
+    "chainId": 9001,
+    "avgSettlementFeeUsd": 0.0006,
+    "finalitySec": 1,
+    "openRegistryId": "zenodo.org/records/10991206",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "Avalanche C-Chain (USDC)",
+    "chainId": 43114,
+    "avgSettlementFeeUsd": 0.014,
+    "finalitySec": 2,
+    "openRegistryId": "zenodo.org/records/10991207",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "Gnosis Chain (xDAI / EURe)",
+    "chainId": 100,
+    "avgSettlementFeeUsd": 0.0009,
+    "finalitySec": 5,
+    "openRegistryId": "zenodo.org/records/10991208",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "zkSync Era (USDC)",
+    "chainId": 324,
+    "avgSettlementFeeUsd": 0.0045,
+    "finalitySec": 3,
+    "openRegistryId": "zenodo.org/records/10991209",
+    "verifiedDate": "2026-10-17"
+  },
+  {
+    "provider": "Linea Mainnet (USDC)",
+    "chainId": 59144,
+    "avgSettlementFeeUsd": 0.0052,
+    "finalitySec": 3,
+    "openRegistryId": "zenodo.org/records/10991210",
+    "verifiedDate": "2026-10-17"
+  }
+]

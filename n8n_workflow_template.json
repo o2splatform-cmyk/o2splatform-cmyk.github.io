@@ -1,0 +1,38 @@
+{
+  "name": "Autonomous x402 Webhook & Open Registry Citation Verifier",
+  "nodes": [
+    {
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": {
+        "path": "verify-citation-bundle",
+        "httpMethod": "POST",
+        "authentication": "headerAuth"
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "YOUR_CREDENTIAL_ID_PLACEHOLDER",
+          "name": "YOUR_HEADER_AUTH_PLACEHOLDER"
+        }
+      }
+    },
+    {
+      "name": "Verify Open Registry Citation",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "https://zenodo.org/api/records/10991201",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "headers": {
+          "Authorization": "YOUR_BEARER_TOKEN_PLACEHOLDER"
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "YOUR_REGISTRY_CREDENTIAL_ID_PLACEHOLDER",
+          "name": "YOUR_REGISTRY_HEADER_AUTH_PLACEHOLDER"
+        }
+      }
+    }
+  ]
+}

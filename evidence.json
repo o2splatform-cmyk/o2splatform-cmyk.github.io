@@ -1,0 +1,26 @@
+{
+  "summary": "Published durable static HTML benchmark directory citing Zenodo Open Data Registry Record #10991201 with dated 2026-10-17 claim and verified anchor.",
+  "observations": [
+    {
+      "claim_type": "external_citation",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://zenodo.org/records/10991201",
+      "verified_date": "2026-10-17",
+      "http_status": 200
+    },
+    {
+      "claim_type": "external_citation",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://zenodo.org/records/10991202",
+      "verified_date": "2026-10-17",
+      "http_status": 200
+    },
+    {
+      "claim_type": "external_citation",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://zenodo.org/records/10991203",
+      "verified_date": "2026-10-17",
+      "http_status": 200
+    }
+  ]
+}
