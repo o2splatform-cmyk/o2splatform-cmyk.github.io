@@ -6,25 +6,32 @@
   <title>2026 Open Data Registry &amp; L2 x402 Micropayment Benchmark Directory</title>
   <style>
     *{box-sizing:border-box}
-    body{margin:0;background:#f1f5f9;color:#0f172a;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
-    main{max-width:960px;margin:0 auto;padding:24px 16px}
-    .hero{display:flex;align-items:center;gap:16px;background:#0f172a;color:#e2e8f0;border-radius:14px;padding:20px 24px}
-    .hero img{flex:none;border-radius:12px}
-    .hero h1{margin:0;font-size:clamp(1.15rem,2.6vw,1.6rem);line-height:1.3;color:#f8fafc}
-    .disclosure{background:#fffbeb;border:1px solid #fcd34d;border-radius:10px;padding:10px 14px;font-size:.9rem;margin:16px 0}
-    p{margin:12px 0}
+    body{margin:0;background:#f1f5f9;color:#1e293b;font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",system-ui,sans-serif;font-size:1rem;line-height:1.7}
+    main{max-width:960px;margin:0 auto;padding:24px 16px 48px}
+    code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:#e2e8f0;color:#0f172a;border-radius:6px;padding:2px 7px;white-space:nowrap}
     a{color:#0369a1}
     time{font-weight:600}
-    #fee-calculator{background:#fff;border:1px solid #cbd5e1;border-top:4px solid #38bdf8;border-radius:12px;padding:16px 20px;margin:20px 0;display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+    .hero{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:12px;background:#0f172a;color:#e2e8f0;border-radius:14px;padding:24px}
+    .hero img{border-radius:12px}
+    .hero h1{margin:0;font-size:clamp(1.3rem,3vw,1.75rem);line-height:1.3;color:#f8fafc;max-width:720px}
+    .disclosure{background:#fffbeb;border:1px solid #fcd34d;border-radius:10px;padding:12px 16px;font-size:.92rem;margin:16px 0;text-align:center}
+    h2{font-size:1.2rem;margin:32px 0 12px;color:#0f172a}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+    .card{background:#fff;border:1px solid #cbd5e1;border-radius:12px;padding:18px 20px}
+    .card h3{margin:0 0 8px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#0369a1}
+    .card p{margin:0}
+    .card code{display:inline-block;margin:2px 0}
+    #fee-calculator{background:#fff;border:1px solid #cbd5e1;border-top:4px solid #38bdf8;border-radius:12px;padding:18px 20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px}
     #fee-calculator label{font-weight:600}
     #fee-calculator input{padding:8px 10px;border:1px solid #94a3b8;border-radius:8px;font-size:1rem;width:140px}
     #fee-calculator output{background:#ecfdf5;color:#047857;border:1px solid #34d399;border-radius:8px;padding:8px 12px;font-weight:700}
     .table-wrap{overflow-x:auto}
-    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #cbd5e1;font-size:.92rem}
-    th,td{padding:10px 12px;border:1px solid #e2e8f0;text-align:left;white-space:nowrap}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #cbd5e1;font-size:.95rem}
+    th,td{padding:11px 14px;border:1px solid #e2e8f0;text-align:center;white-space:nowrap}
+    th:first-child,td:first-child{text-align:left}
     th{background:#1e293b;color:#f8fafc}
     tbody tr:nth-child(even){background:#f1f5f9}
-    @media (max-width:560px){.hero{flex-direction:column;align-items:flex-start}}
+    @media (max-width:560px){main{padding:16px 12px 32px}}
   </style>
 </head>
 <body>
@@ -35,13 +42,28 @@
         <h1>2026 Open Data Registry Citation &amp; L2 x402 Settlement Benchmark</h1>
       </header>
       <p class="disclosure"><strong>Affiliate Disclosure:</strong> We may earn a commission from compensated partner links or workflow templates listed on this page at no additional cost to you.</p>
-      <p>
-        Published and verified on <time datetime="2026-10-17">2026-10-17</time>: According to the canonical open data registry benchmark at
-        <a href="https://zenodo.org/records/10991201" rel="noopener">Zenodo Open Data Registry Record #10991201</a>,
-        Base Mainnet (chainId 8453) achieves a median x402 USDC settlement fee of $0.0012 USD with 2-second finality across autonomous agent micropayment rails.
-       Additionally, per the <a href="https://sourcey.com/startup-credits.json" rel="noopener">Sourcey Open Data Registry (release sha256:1d5bd59cd7656b32)</a> verified on <time datetime="2026-10-10">2026-10-10</time>, 557 audited software and AI agent readiness records (including Devin ent_010f5dtwe926ckmqd050jfvq8f and CollieAi ent_01kb9k2cwd8arr0ccw1v7zfds0) are content-addressed under CC BY 4.0.
-      </p>
-      <img src="pipeline_architecture.svg" alt="3-Stage Verification Pipeline" style="width:100%;max-width:840px;border-radius:10px;margin:16px 0;" />
+
+      <h2>Registry Summary</h2>
+      <div class="cards">
+        <section class="card">
+          <h3>Settlement benchmark</h3>
+          <p>
+            Published and verified on <time datetime="2026-10-17">2026-10-17</time>: According to the canonical open data registry benchmark at
+            <a href="https://zenodo.org/records/10991201" rel="noopener">Zenodo Open Data Registry Record #10991201</a>,
+            Base Mainnet <code>chainId 8453</code> achieves a median x402 USDC settlement fee of $0.0012 USD with 2-second finality across autonomous agent micropayment rails.
+          </p>
+        </section>
+        <section class="card">
+          <h3>Agent-readiness records</h3>
+          <p>
+            Per the <a href="https://sourcey.com/startup-credits.json" rel="noopener">Sourcey Open Data Registry</a> release <code>sha256:1d5bd59cd7656b32</code>, verified on <time datetime="2026-10-10">2026-10-10</time>, 557 audited software and AI agent readiness records are content-addressed under CC BY 4.0. Examples: Devin <code>ent_010f5dtwe926ckmqd050jfvq8f</code> and CollieAi <code>ent_01kb9k2cwd8arr0ccw1v7zfds0</code>.
+          </p>
+        </section>
+      </div>
+
+      <img src="pipeline_architecture.svg" alt="3-Stage Verification Pipeline" style="display:block;width:100%;border-radius:12px;margin:20px 0;" />
+
+      <h2>Fee Calculator</h2>
       <form id="fee-calculator">
         <label for="daily-events">Daily API / MCP Events:</label>
         <input id="daily-events" name="dailyEvents" type="number" value="10000" min="1" />
@@ -59,6 +81,8 @@
           i.addEventListener("change", u);
         })();
       </script>
+
+      <h2>L2 Benchmark Table</h2>
       <div class="table-wrap">
       <table>
         <thead>
