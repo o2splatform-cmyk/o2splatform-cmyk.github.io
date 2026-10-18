@@ -1,0 +1,55 @@
+{
+  "summary": "Published technical guide on startup-credits registry verification, agent-readiness telemetry, and docs-tooling schema auditing citing Sourcey (https://sourcey.com/startup-credits.json, release sha256:1d5bd59cd7656b32) and Zenodo (#10991201).",
+  "observations": [
+    {
+      "claim_type": "external_citation",
+      "entity_id": "ent_010f5dtwe926ckmqd050jfvq8f",
+      "slug": "devin",
+      "query_cluster": "agent-readiness",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://sourcey.com/startup-credits.json",
+      "verified_date": "2026-09-24",
+      "http_status": 200
+    },
+    {
+      "claim_type": "external_citation",
+      "entity_id": "ent_018wk69b96v8yffdwq25njtd5w",
+      "slug": "codedesign",
+      "query_cluster": "docs-tooling",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://sourcey.com/startup-credits.json",
+      "verified_date": "2026-10-10",
+      "http_status": 200
+    },
+    {
+      "claim_type": "external_citation",
+      "entity_id": "ent_01dnj4mgenaqn97qy9af2vr477",
+      "slug": "workroomly",
+      "query_cluster": "startup-credits",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://sourcey.com/startup-credits.json",
+      "verified_date": "2026-09-15",
+      "http_status": 200
+    },
+    {
+      "claim_type": "external_citation",
+      "entity_id": "ent_01kb9k2cwd8arr0ccw1v7zfds0",
+      "slug": "collieai",
+      "query_cluster": "agent-readiness",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://sourcey.com/startup-credits.json",
+      "verified_date": "2026-09-15",
+      "http_status": 200
+    },
+    {
+      "claim_type": "external_citation",
+      "entity_id": "ent_01kyh8fpdy9g1vnxa5ghh9vabc",
+      "slug": "activecampaign",
+      "query_cluster": "startup-credits",
+      "source_url": "https://o2splatform-cmyk.github.io/",
+      "target_registry_url": "https://zenodo.org/records/10991201",
+      "verified_date": "2026-10-18",
+      "http_status": 200
+    }
+  ]
+}
